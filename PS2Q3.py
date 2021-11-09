@@ -42,6 +42,7 @@ colnames = {'SEQN':'id',
             'DMDEDUC2':'edu',
             'DMDMARTL':'married',
             'RIDSTATR':'exam_status',
+            'RIAGENDR':'gender',
             'SDMVPSU':'mvpsu',
             'SDMVSTRA':'mvstra',
             'WTMEC2YR':'int2yr',
@@ -103,6 +104,10 @@ cat_vars = {
     'exam_status' : {
         1: "Interviewed only",
         2: "Both interviewed and MEC examined"
+        },
+    'gender' : {
+        1: "Male",
+        2: "Female"
         }
     }
 for c in cat_vars.keys():
