@@ -7,7 +7,7 @@ The purpose of the remote repo is to categorize and track changes made to assign
 
 ### PS2Q3
 
-[Link](/PS2Q3)
+[Link](/PS2Q3.py)
 
 This file solely contains the third question of problem set 2.
 This question focuses on reading, cleaning, and joining several data files from the National Health and Nutrition Examination Survey (NHANES).
