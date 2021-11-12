@@ -1,21 +1,42 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Nov 10 10:56:59 2021
+# ---
+# jupyter:
+#   jupytext:
+#     cell_metadata_json: true
+#     notebook_metadata_filter: markdown
+#     text_representation:
+#       extension: .py
+#       format_name: light
+#       format_version: '1.5'
+#       jupytext_version: 1.12.0
+#   kernelspec:
+#     display_name: Python 3 (ipykernel)
+#     language: python
+#     name: python3
+# ---
 
-@author: Max Stauffer
-"""
+# ## Topics in Pandas
+# **Stats 507, Fall 2021** 
+#   
+
+# ## Contents
+# Add a bullet for each topic and link to the level 2 title header using 
+# the exact title with spaces replaced by a dash. 
+#
+# + [Topic: Categorical Data in Pandas](#Topic:-Categorical-Data-in-Pandas) 
+# + [Categorical Data Overview ](#Categorical-Data-Overview)
+# + [Creating Categorical Data](#Creating-Categorical-Data) 
+# + [Categorical Caveats ](#Categorical-Caveats)
+# + [Categorical Operations](#Categorical-Operations)
+
+# ## Topic: Categorical Data in Pandas
+# ### Maxwell Stauffer
+# maxstauf@umich.edu
 
 #Requirements:
 import numpy as np
 import pandas as pd
 from pandas.api.types import CategoricalDtype
-
-# # Stats 507 Problem Set 4
-# ### Maxwell Stauffer
-#
-# maxstauf@umich.edu
-
-# # Topic: Categorical Data in Pandas
 
 # ## Categorical Data Overview 
 
@@ -78,3 +99,7 @@ cat = pd.Series([1, 2, 3]).astype(CategoricalDtype([3, 2, 1], ordered=True))
 cat_b = pd.Series([2, 2, 2]).astype(CategoricalDtype([3, 2, 1], ordered=True))
 # cat > cat_b
 # -
+
+
+
+
